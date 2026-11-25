@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  analyticsengine:
+  - apiVersion: v2
+    appVersion: 5.4.8
+    created: "2026-11-22T19:04:09.648125-08:00"
+    description: Deploys the Analytics Engine operator and its instance in a target
+      namespace. Includes namespace RBAC, ConfigMaps, Secrets, and the AE Custom Resource.
+      Manages the lifecycle and configuration of one AE service instance
+    digest: 8e9167a0ed1058ad94ea11b8ac9a795e43ae2a1573ac797e1986a03416b0fd35
+    name: analyticsengine
+    type: application
+    urls:
+    - https://raw.github.ibm.com/data-ai-swat/gitops-charts/main/softwarehub/analyticsengine-5.4.8+20260927.003702.2995.tgz
+    version: 5.4.8+20260927.003702.2995
