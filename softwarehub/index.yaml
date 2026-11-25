@@ -13,3 +13,570 @@ entries:
     urls:
     - https://raw.github.ibm.com/data-ai-swat/gitops-charts/main/softwarehub/analyticsengine-5.4.8+20260927.003702.2995.tgz
     version: 5.4.8+20260927.003702.2995
+  ccs:
+  - apiVersion: v2
+    appVersion: 13.0.8
+    created: "2026-11-24T21:07:45.289393065-05:00"
+    description: CPD Common Core Service Helm chart for operator
+    digest: b07a52f6dc2276a5922b54cb8970a02bf83c469db47b5c6493fe86d025c51655
+    name: ccs
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ccs-13.0.8+20261013.142720.198.tgz
+    version: 13.0.8+20261013.142720.198
+  ccs-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.8
+    created: "2026-11-24T21:07:45.291594061-05:00"
+    description: CPD Common Core Service Helm chart for operator
+    digest: 208f9efa21e817fb1862fd362ef17587167b4d2b9fa88edbfb17ae8b58b3f30d
+    name: ccs-cluster-scoped
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ccs-cluster-scoped-13.0.8+20261013.142720.198.tgz
+    version: 13.0.8+20261013.142720.198
+  cpd-platform:
+  - apiVersion: v2
+    appVersion: 5.10.8
+    created: "2026-11-24T21:07:45.293230032-05:00"
+    description: A Helm chart for Kubernetes
+    digest: a2db04906a4b7c2f78dcbc315707cc1caae04b4f89ba767f174e0cf411a6328a
+    name: cpd-platform
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/cpd-platform-5.10.8+20260929.105344.9.tgz
+    version: 5.10.8+20260929.105344.9
+  cpd-platform-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.10.8
+    created: "2026-11-24T21:07:45.294353454-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 44d3698dee16fd3d2623ecda3cfe960a7b1f89d538698d6923bc075037edcbe9
+    name: cpd-platform-cluster-scoped
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/cpd-platform-cluster-scoped-5.10.8+20260929.105344.9.tgz
+    version: 5.10.8+20260929.105344.9
+  datastage-ent-plus:
+  - apiVersion: v2
+    appVersion: 5.4.8
+    created: "2026-11-24T21:07:45.296025498-05:00"
+    description: A Helm chart for DataStage.
+    digest: eb3d6e90d536ee643656c7e1058cc35495f891f829a533241f2f823829b61314
+    name: datastage-ent-plus
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/datastage-ent-plus-12.0.8+20260927.202412.29.tgz
+    version: 12.0.8+20260927.202412.29
+  datastage-ent-plus-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.8
+    created: "2026-11-24T21:07:45.297058722-05:00"
+    description: A Helm chart for DataStage cluster scoped crd.
+    digest: 660e0d06b54663ffa61a17c37a6c99ec563964d99f93c8be58c75d124798e0c9
+    name: datastage-ent-plus-cluster-scoped
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/datastage-ent-plus-cluster-scoped-12.0.8+20260927.202412.29.tgz
+    version: 12.0.8+20260927.202412.29
+  ibm-common-service-operator:
+  - annotations:
+      operator-1: ibm-common-service-operator
+      operator-2: ibm-odlm
+      versionOperator-1: 4.19.3
+      versionOperator-2: 4.5.11
+    apiVersion: v2
+    appVersion: 4.19.3
+    created: "2026-11-24T21:07:45.300513349-05:00"
+    description: A Helm chart for ibm-common-service-operator and ibm-odlm namespace
+      scoped resources
+    digest: 06f2931a5ef093dd15223c233704bf6e66210b360d6fb2eef7bcf4e79d08609b
+    name: ibm-common-service-operator
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-common-service-operator-4.19.3+20260915.101245.0.tgz
+    version: 4.19.3+20260915.101245.0
+  ibm-common-service-operator-cluster-scoped:
+  - annotations:
+      operator-1: ibm-common-service-operator
+      operator-2: ibm-odlm
+      versionOperator-1: 4.19.3
+      versionOperator-2: 4.5.11
+    apiVersion: v2
+    appVersion: 4.19.3
+    created: "2026-11-24T21:07:45.304572236-05:00"
+    description: A Helm chart for ibm-common-service-operator and ibm-odlm cluster
+      scoped resources
+    digest: 0dd04e95124041b5043e908bd97aaf82f5ff8c6ac7bcd9faedaf0af947507854
+    name: ibm-common-service-operator-cluster-scoped
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-common-service-operator-cluster-scoped-4.19.3+20260915.101245.0.tgz
+    version: 4.19.3+20260915.101245.0
+  ibm-iam-operator:
+  - annotations:
+      operator-1: ibm-iam-operator
+      operator-2: ibm-commonui-operator-app
+      versionOperator-1: 4.18.2
+      versionOperator-2: 4.15.2
+    apiVersion: v2
+    appVersion: 4.18.2
+    created: "2026-11-24T21:07:45.307165072-05:00"
+    description: A Helm chart for ibm-iam-operator and ibm-commonui-operator namespace
+      scoped resources
+    digest: 79fab9dd174e84c65af8640c26db7e9e61922dc8147782706ff8582a19de4571
+    name: ibm-iam-operator
+    sources:
+    - https://github.com/IBM/ibm-iam-operator/
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-iam-operator-4.18.2+20260909.101104.0.tgz
+    version: 4.18.2+20260909.101104.0
+  ibm-iam-operator-cluster-scoped:
+  - annotations:
+      operator-1: ibm-iam-operator
+      operator-2: ibm-commonui-operator-app
+      versionOperator-1: 4.18.2
+      versionOperator-2: 4.15.2
+    apiVersion: v2
+    appVersion: 4.18.2
+    created: "2026-11-24T21:07:45.309014934-05:00"
+    description: A Helm chart for ibm-iam-operator and ibm-commonui-operator cluster
+      scoped resources
+    digest: 3a7f173752a288f34676601f55db06ba74ef84466c19d56df8e6fad6adf275c1
+    name: ibm-iam-operator-cluster-scoped
+    sources:
+    - https://github.com/IBM/ibm-iam-operator/
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-iam-operator-cluster-scoped-4.18.2+20260909.101104.0.tgz
+    version: 4.18.2+20260909.101104.0
+  ibm-licensing:
+  - annotations:
+      charts.openshift.io/name: ibm-licensing
+      charts.openshift.io/provider: IBM
+      charts.openshift.io/source-url: https://github.com/IBM/ibm-licensing-operator
+      charts.openshift.io/sources: https://github.com/IBM/ibm-licensing-operator
+    apiVersion: v2
+    created: "2026-11-24T21:07:45.311338125-05:00"
+    description: A Helm chart for License Service. Contains the namespace-scope resources.
+      You can use License Service to retrieve license usage data from your cluster
+      and create a licensing snapshot. License Service collects and measures the license
+      usage of your IBM® products at the cluster level. You can retrieve this data
+      upon request for monitoring and compliance. You can also retrieve an audit snapshot
+      of the data that is audit evidence. License Service is required for monitoring
+      and measuring license usage of the IBM Cloud Paks® and IBM® stand-alone containerized
+      software in accord with the pricing rule for containerized environments. Manual
+      license measurements are not allowed.
+    digest: a362f6aaf0b8326fc02c90ff95689af52b2dfc4fac69be0f878207c59755983b
+    home: https://ibm.biz/license-service
+    icon: 'data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NzYiIGhlaWdodD0iNTc2IiB2aWV3Qm94PSIwIDAgNTc2IDU3NiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogI2ZmZjsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNTc2IiBoZWlnaHQ9IjU3NiIvPgogIDxnPgogICAgPHJlY3QgeD0iMTI4IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjYyLjIyMjIiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSIxMjgiIHk9IjMyNS45Nzk3IiB3aWR0aD0iNjIuMjIyMiIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjE0NS43Nzc3IiB5PSIzMDkuMDEiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg5Ii8+CiAgICA8cmVjdCB4PSIxNDUuNzc3NyIgeT0iMjkyLjA0MDQiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMTQ1Ljc3NzciIHk9IjI3NS4wNzA2IiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjE0NS43Nzc3IiB5PSIyNTguMTAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjEyOCIgeT0iMjQxLjEzMTMiIHdpZHRoPSI2Mi4yMjIyIiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMTI4IiB5PSIyMjQuMTYxNyIgd2lkdGg9IjYyLjIyMjIiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cGF0aCBkPSJNMTk5LjExMTIsMzM0Ljg2ODZoOTQuODQyYTMzLjcxMjEsMzMuNzEyMSwwLDAsMCwzLjU3Ni04Ljg4ODloLTk4LjQxOFoiLz4KICAgIDxwYXRoIGQ9Ik0yODYuNTI4NiwyOTIuMDRoLTY5LjY0djguODg4OGg3Ny4wNTQ3QTM0LjA3NTQsMzQuMDc1NCwwLDAsMCwyODYuNTI4NiwyOTIuMDRaIi8+CiAgICA8cGF0aCBkPSJNMjE2Ljg4ODksMjc1LjA3MDZWMjgzLjk2aDY5LjY0YTM0LjA3NzQsMzQuMDc3NCwwLDAsMCw3LjQxNS04Ljg4ODlaIi8+CiAgICA8cGF0aCBkPSJNMjkzLjk1MzIsMjQxLjEzMTNoLTk0Ljg0MlYyNTAuMDJoOTguNDE4QTMzLjcxNDgsMzMuNzE0OCwwLDAsMCwyOTMuOTUzMiwyNDEuMTMxM1oiLz4KICAgIDxwYXRoIGQ9Ik0yNjQuNTY1NiwyMjQuMTYxN0gxOTkuMTExMnY4Ljg4ODhoODguMzVBMzMuODEzOCwzMy44MTM4LDAsMCwwLDI2NC41NjU2LDIyNC4xNjE3WiIvPgogICAgPHJlY3QgeD0iMjE2Ljg4ODkiIHk9IjI1OC4xMDEiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHBhdGggZD0iTTI2OC42MDYxLDI2Ni45OWgyOC43MWEzMy45NDkyLDMzLjk0OTIsMCwwLDAsMS4xODktOC44ODg5aC0yOS44OTlaIi8+CiAgICA8cmVjdCB4PSIyMTYuODg4OSIgeT0iMzA5LjAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4OSIvPgogICAgPHBhdGggZD0iTTI2OC42MDYxLDMwOS4wMXY4Ljg4OWgyOS44OTlhMzMuOTQ4OCwzMy45NDg4LDAsMCwwLTEuMTg5LTguODg5WiIvPgogICAgPHBhdGggZD0iTTE5OS4xMTEyLDM1MS43NWw2NS40NTQ0LjA4NzlhMzMuNjkyNiwzMy42OTI2LDAsMCwwLDIyLjg5NTktOC44ODg4aC04OC4zNVoiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMzc2Ljg3NSAzNTEuODM4IDM3OS45NzkgMzQyLjk0OSAzNzMuNzk5IDM0Mi45NDkgMzc2Ljg3NSAzNTEuODM4Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM3MC45NjIgMzM0Ljg2OSAzODIuODE2IDMzNC44NjkgMzg1LjkzNiAzMjUuOTggMzY3Ljg0MiAzMjUuOTggMzcwLjk2MiAzMzQuODY5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM2NS4wMDUgMzE3Ljg5OSAzODguNzczIDMxNy44OTkgMzkxLjg5NCAzMDkuMDEgMzYxLjg4NCAzMDkuMDEgMzY1LjAwNSAzMTcuODk5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM1OS4wNDcgMzAwLjkyOSAzOTQuNzMxIDMwMC45MjkgMzk3Ljg1MSAyOTIuMDQgMzU1LjkyNyAyOTIuMDQgMzU5LjA0NyAzMDAuOTI5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjMyMy41NTYgMjY2Ljk5IDM3MS41OCAyNjYuOTkgMzY4LjQ4OSAyNTguMTAxIDMyMy41NTYgMjU4LjEwMSAzMjMuNTU2IDI2Ni45OSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIzODguMDk5IDI1MC4wMiA0NDggMjUwLjAyIDQ0OCAyNDEuMTMxIDM5MS4xOSAyNDEuMTMxIDM4OC4wOTkgMjUwLjAyIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM5Ny4wOTEgMjI0LjE2MiAzOTQgMjMzLjA1MSA0NDggMjMzLjA1MSA0NDggMjI0LjE2MiAzOTcuMDkxIDIyNC4xNjIiLz4KICAgIDxyZWN0IHg9IjMwNS43Nzc5IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjQ0LjQ0NDUiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSIzMDUuNzc3OSIgeT0iMzI1Ljk3OTciIHdpZHRoPSI0NC40NDQ1IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMzIzLjU1NTYiIHk9IjMwOS4wMSIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODkiLz4KICAgIDxyZWN0IHg9IjMyMy41NTU2IiB5PSIyOTIuMDQwNCIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjQzMC4yMjIgMjU4LjEwMSAzODUuMjg5IDI1OC4xMDEgMzgyLjE5OCAyNjYuOTkgNDMwLjIyMiAyNjYuOTkgNDMwLjIyMiAyNTguMTAxIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjQwMy41NTYgMjgzLjk2IDQzMC4yMjIgMjgzLjk2IDQzMC4yMjIgMjc1LjA3MSA0MDMuNTU2IDI3NS4wNzEgNDAzLjU1NiAyNzUuMDcxIDM3OS4zODcgMjc1LjA3MSAzNzYuODg5IDI4Mi4yNTYgMzc0LjM5IDI3NS4wNzEgMzUwLjIyMiAyNzUuMDcxIDMyMy41NTYgMjc1LjA3MSAzMjMuNTU2IDI4My45NiAzNTAuMjIyIDI4My45NiAzNTAuMjIyIDI3NS43OTEgMzUzLjA5IDI4My45NiA0MDAuNjg4IDI4My45NiA0MDMuNTU2IDI3NS43OTIgNDAzLjU1NiAyODMuOTYiLz4KICAgIDxyZWN0IHg9IjQwMy41NTU1IiB5PSIyOTIuMDQwNCIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSI0MDMuNTU1NSIgeT0iMzA5LjAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4OSIvPgogICAgPHJlY3QgeD0iNDAzLjU1NTUiIHk9IjMyNS45Nzk3IiB3aWR0aD0iNDQuNDQ0NSIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjQwMy41NTU1IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjQ0LjQ0NDUiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM2NS42NzkgMjUwLjAyIDM2Mi41ODggMjQxLjEzMSAzMDUuNzc4IDI0MS4xMzEgMzA1Ljc3OCAyNTAuMDIgMzY1LjY3OSAyNTAuMDIiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMzU5Ljc3OCAyMzMuMDUxIDM1Ni42ODcgMjI0LjE2MiAzMDUuNzc4IDIyNC4xNjIgMzA1Ljc3OCAyMzMuMDUxIDM1OS43NzggMjMzLjA1MSIvPgogIDwvZz4KPC9zdmc+Cg== '
+    keywords:
+    - ibm
+    - licensing
+    - compliance
+    - audit
+    - cloudpak
+    maintainers:
+    - name: IBM
+    name: ibm-licensing
+    sources:
+    - https://github.com/IBM/ibm-licensing-operator
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-licensing-4.2.25+20260916.194642.0.tgz
+    version: 4.2.25+20260916.194642.0
+  ibm-licensing-cluster-scoped:
+  - annotations:
+      artifacthub.io/readme: |
+        # IBM License Service Helm Chart
+
+        **Important:**
+        - If you are using the IBM Licensing Operator as part of an IBM Cloud Pak, see the documentation for that IBM Cloud Pak to learn more about how to install and use the operator service. For the link to your IBM Cloud Pak documentation, see [IBM Cloud Paks that use Common Services](https://ibm.biz/BdyGwb).
+        - If you are using a stand-alone IBM Container Software, you can use the IBM Licensing Operator directly. For more information, see [ibm-licensing-operator for stand-alone IBM Containerized Software](https://ibm.biz/BdyGwh).
+
+        **IBM Licensing Operator overview**
+
+        IBM Licensing Operator installs License Service. You can use License Service to collect information about license usage of IBM Containerized products and IBM Cloud Paks per cluster. You can retrieve license usage data through a dedicated API call and generate an audit snapshot on demand.
+
+        **Supported platforms**
+
+        Red Hat OpenShift Container Platform 4.10 or newer installed on Linux x86_64, Linux on Power (ppc64le), Linux on IBM Z and LinuxONE.
+
+        **Prerequisites**
+
+        Prerequisites depend on the integration of the License Service with an IBM Cloud Pak or IBM Containerized Software. For more information, see the applicable IBM Cloud Pak documentation or [ibm-licensing-operator for stand-alone IBM Containerized Software](https://ibm.biz/BdyGwh).
+      charts.openshift.io/name: ibm-licensing-cluster-scoped
+      charts.openshift.io/provider: IBM
+      charts.openshift.io/source-url: https://github.com/IBM/ibm-licensing-operator
+      charts.openshift.io/sources: https://github.com/IBM/ibm-licensing-operator
+    apiVersion: v2
+    created: "2026-11-24T21:07:45.314019677-05:00"
+    description: A Helm chart for License Service. You can use License Service to
+      retrieve license usage data from your cluster and create a licensing snapshot.
+      License Service collects and measures the license usage of your IBM® products
+      at the cluster level. You can retrieve this data upon request for monitoring
+      and compliance. You can also retrieve an audit snapshot of the data that is
+      audit evidence. License Service is required for monitoring and measuring license
+      usage of the IBM Cloud Paks® and IBM® stand-alone containerized software in
+      accord with the pricing rule for containerized environments. Manual license
+      measurements are not allowed.
+    digest: 65b8a9ccd9e9eb9f1a9a3014b1e11cd7d333c768d4366672ad75ba6144a06710
+    home: https://ibm.biz/license-service
+    icon: 'data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NzYiIGhlaWdodD0iNTc2IiB2aWV3Qm94PSIwIDAgNTc2IDU3NiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogI2ZmZjsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNTc2IiBoZWlnaHQ9IjU3NiIvPgogIDxnPgogICAgPHJlY3QgeD0iMTI4IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjYyLjIyMjIiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSIxMjgiIHk9IjMyNS45Nzk3IiB3aWR0aD0iNjIuMjIyMiIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjE0NS43Nzc3IiB5PSIzMDkuMDEiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg5Ii8+CiAgICA8cmVjdCB4PSIxNDUuNzc3NyIgeT0iMjkyLjA0MDQiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMTQ1Ljc3NzciIHk9IjI3NS4wNzA2IiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjE0NS43Nzc3IiB5PSIyNTguMTAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjEyOCIgeT0iMjQxLjEzMTMiIHdpZHRoPSI2Mi4yMjIyIiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMTI4IiB5PSIyMjQuMTYxNyIgd2lkdGg9IjYyLjIyMjIiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cGF0aCBkPSJNMTk5LjExMTIsMzM0Ljg2ODZoOTQuODQyYTMzLjcxMjEsMzMuNzEyMSwwLDAsMCwzLjU3Ni04Ljg4ODloLTk4LjQxOFoiLz4KICAgIDxwYXRoIGQ9Ik0yODYuNTI4NiwyOTIuMDRoLTY5LjY0djguODg4OGg3Ny4wNTQ3QTM0LjA3NTQsMzQuMDc1NCwwLDAsMCwyODYuNTI4NiwyOTIuMDRaIi8+CiAgICA8cGF0aCBkPSJNMjE2Ljg4ODksMjc1LjA3MDZWMjgzLjk2aDY5LjY0YTM0LjA3NzQsMzQuMDc3NCwwLDAsMCw3LjQxNS04Ljg4ODlaIi8+CiAgICA8cGF0aCBkPSJNMjkzLjk1MzIsMjQxLjEzMTNoLTk0Ljg0MlYyNTAuMDJoOTguNDE4QTMzLjcxNDgsMzMuNzE0OCwwLDAsMCwyOTMuOTUzMiwyNDEuMTMxM1oiLz4KICAgIDxwYXRoIGQ9Ik0yNjQuNTY1NiwyMjQuMTYxN0gxOTkuMTExMnY4Ljg4ODhoODguMzVBMzMuODEzOCwzMy44MTM4LDAsMCwwLDI2NC41NjU2LDIyNC4xNjE3WiIvPgogICAgPHJlY3QgeD0iMjE2Ljg4ODkiIHk9IjI1OC4xMDEiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHBhdGggZD0iTTI2OC42MDYxLDI2Ni45OWgyOC43MWEzMy45NDkyLDMzLjk0OTIsMCwwLDAsMS4xODktOC44ODg5aC0yOS44OTlaIi8+CiAgICA8cmVjdCB4PSIyMTYuODg4OSIgeT0iMzA5LjAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4OSIvPgogICAgPHBhdGggZD0iTTI2OC42MDYxLDMwOS4wMXY4Ljg4OWgyOS44OTlhMzMuOTQ4OCwzMy45NDg4LDAsMCwwLTEuMTg5LTguODg5WiIvPgogICAgPHBhdGggZD0iTTE5OS4xMTEyLDM1MS43NWw2NS40NTQ0LjA4NzlhMzMuNjkyNiwzMy42OTI2LDAsMCwwLDIyLjg5NTktOC44ODg4aC04OC4zNVoiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMzc2Ljg3NSAzNTEuODM4IDM3OS45NzkgMzQyLjk0OSAzNzMuNzk5IDM0Mi45NDkgMzc2Ljg3NSAzNTEuODM4Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM3MC45NjIgMzM0Ljg2OSAzODIuODE2IDMzNC44NjkgMzg1LjkzNiAzMjUuOTggMzY3Ljg0MiAzMjUuOTggMzcwLjk2MiAzMzQuODY5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM2NS4wMDUgMzE3Ljg5OSAzODguNzczIDMxNy44OTkgMzkxLjg5NCAzMDkuMDEgMzYxLjg4NCAzMDkuMDEgMzY1LjAwNSAzMTcuODk5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM1OS4wNDcgMzAwLjkyOSAzOTQuNzMxIDMwMC45MjkgMzk3Ljg1MSAyOTIuMDQgMzU1LjkyNyAyOTIuMDQgMzU5LjA0NyAzMDAuOTI5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjMyMy41NTYgMjY2Ljk5IDM3MS41OCAyNjYuOTkgMzY4LjQ4OSAyNTguMTAxIDMyMy41NTYgMjU4LjEwMSAzMjMuNTU2IDI2Ni45OSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIzODguMDk5IDI1MC4wMiA0NDggMjUwLjAyIDQ0OCAyNDEuMTMxIDM5MS4xOSAyNDEuMTMxIDM4OC4wOTkgMjUwLjAyIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM5Ny4wOTEgMjI0LjE2MiAzOTQgMjMzLjA1MSA0NDggMjMzLjA1MSA0NDggMjI0LjE2MiAzOTcuMDkxIDIyNC4xNjIiLz4KICAgIDxyZWN0IHg9IjMwNS43Nzc5IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjQ0LjQ0NDUiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSIzMDUuNzc3OSIgeT0iMzI1Ljk3OTciIHdpZHRoPSI0NC40NDQ1IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMzIzLjU1NTYiIHk9IjMwOS4wMSIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODkiLz4KICAgIDxyZWN0IHg9IjMyMy41NTU2IiB5PSIyOTIuMDQwNCIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjQzMC4yMjIgMjU4LjEwMSAzODUuMjg5IDI1OC4xMDEgMzgyLjE5OCAyNjYuOTkgNDMwLjIyMiAyNjYuOTkgNDMwLjIyMiAyNTguMTAxIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjQwMy41NTYgMjgzLjk2IDQzMC4yMjIgMjgzLjk2IDQzMC4yMjIgMjc1LjA3MSA0MDMuNTU2IDI3NS4wNzEgNDAzLjU1NiAyNzUuMDcxIDM3OS4zODcgMjc1LjA3MSAzNzYuODg5IDI4Mi4yNTYgMzc0LjM5IDI3NS4wNzEgMzUwLjIyMiAyNzUuMDcxIDMyMy41NTYgMjc1LjA3MSAzMjMuNTU2IDI4My45NiAzNTAuMjIyIDI4My45NiAzNTAuMjIyIDI3NS43OTEgMzUzLjA5IDI4My45NiA0MDAuNjg4IDI4My45NiA0MDMuNTU2IDI3NS43OTIgNDAzLjU1NiAyODMuOTYiLz4KICAgIDxyZWN0IHg9IjQwMy41NTU1IiB5PSIyOTIuMDQwNCIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSI0MDMuNTU1NSIgeT0iMzA5LjAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4OSIvPgogICAgPHJlY3QgeD0iNDAzLjU1NTUiIHk9IjMyNS45Nzk3IiB3aWR0aD0iNDQuNDQ0NSIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjQwMy41NTU1IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjQ0LjQ0NDUiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM2NS42NzkgMjUwLjAyIDM2Mi41ODggMjQxLjEzMSAzMDUuNzc4IDI0MS4xMzEgMzA1Ljc3OCAyNTAuMDIgMzY1LjY3OSAyNTAuMDIiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMzU5Ljc3OCAyMzMuMDUxIDM1Ni42ODcgMjI0LjE2MiAzMDUuNzc4IDIyNC4xNjIgMzA1Ljc3OCAyMzMuMDUxIDM1OS43NzggMjMzLjA1MSIvPgogIDwvZz4KPC9zdmc+Cg== '
+    keywords:
+    - ibm
+    - licensing
+    - compliance
+    - audit
+    - cloudpak
+    maintainers:
+    - name: IBM
+    name: ibm-licensing-cluster-scoped
+    sources:
+    - https://github.com/IBM/ibm-licensing-operator
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-licensing-cluster-scoped-4.2.25+20260916.194642.0.tgz
+    version: 4.2.25+20260916.194642.0
+  ibm-pg-operator:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 28.3.3
+    created: "2026-11-24T21:07:45.316225742-05:00"
+    description: ibm-pg-operator manages Postgres Clusters embedded in IBM Products
+    digest: b7bf939c55905e23ad71a30859f9ec76e872b33c8fd9944144137fdec2216be4
+    home: https://www.ibm.com
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - ibm-pg-operator
+    maintainers:
+    - email: support@ibm.com
+      name: IBM Support
+    name: ibm-pg-operator
+    sources:
+    - https://www.ibm.com
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-pg-operator-28.3.3+20260625.144015.538.tgz
+    version: 28.3.3+20260625.144015.538
+  ibm-pg-operator-cluster-scoped:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 28.3.3
+    created: "2026-11-24T21:07:45.332834989-05:00"
+    description: ibm-pg-operator manages Postgres Clusters embedded in IBM Products
+      - Cluster-scoped resources
+    digest: 5cc734d30ebb9e47ccef395f1dfc03c6076548ddebc3091db4ccbddb5bca0ca8
+    home: https://www.ibm.com
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - ibm-pg-operator
+    maintainers:
+    - email: support@ibm.com
+      name: IBM Support
+    name: ibm-pg-operator-cluster-scoped
+    sources:
+    - https://www.ibm.com
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-pg-operator-cluster-scoped-28.3.3+20260625.144014.538.tgz
+    version: 28.3.3+20260625.144014.538
+  ibm-usage-metering:
+  - annotations:
+      artifacthub.io/readme: |
+        file://README.md
+      charts.openshift.io/name: ibm-usage-metering
+      charts.openshift.io/provider: IBM
+      charts.openshift.io/source-url: https://github.ibm.com/cloud-license-reporter/ibm-usage-metering-operator
+      charts.openshift.io/sources: https://github.ibm.com/cloud-license-reporter/ibm-usage-metering-operator
+    apiVersion: v2
+    appVersion: 1.0.8
+    created: "2026-11-24T21:07:45.335590918-05:00"
+    description: 'A Helm chart for IBM Usage Metering installation. IBM products can
+      integrate with Usage Metering Service (UMS) that is used to capture two types
+      of product usage metrics: contractual metrics for compliance purposes, and adoption
+      metrics for various scenarios related to usage analysis. UMS is intended to
+      allow products capture business value metrics for the purpose of creating compliance
+      evidence for the auditing purposes and visualizing metric usage in reporting
+      tools.'
+    digest: cd435266dc27168c2b9c770ee8118ec8fbbe06ff2c9f3363e9ab50422f3a94bd
+    home: https://ibm.biz/usage_metering_service
+    icon: data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxu
+      cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NzYiIGhlaWdodD0iNTc2IiB2aWV3Qm94
+      PSIwIDAgNTc2IDU3NiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmls
+      bDogI2ZmZjsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3
+      aWR0aD0iNTc2IiBoZWlnaHQ9IjU3NiIvPgogIDxnPgogICAgPHJlY3QgeD0iMTI4IiB5PSIzNDIuOTQ5NSIg
+      d2lkdGg9IjYyLjIyMjIiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSIxMjgiIHk9IjMyNS45Nzk3
+      IiB3aWR0aD0iNjIuMjIyMiIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjE0NS43Nzc3IiB5PSIz
+      MDkuMDEiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg5Ii8+CiAgICA8cmVjdCB4PSIxNDUuNzc3NyIg
+      eT0iMjkyLjA0MDQiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMTQ1
+      Ljc3NzciIHk9IjI3NS4wNzA2IiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0
+      IHg9IjE0NS43Nzc3IiB5PSIyNTguMTAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAg
+      IDxyZWN0IHg9IjEyOCIgeT0iMjQxLjEzMTMiIHdpZHRoPSI2Mi4yMjIyIiBoZWlnaHQ9IjguODg4OSIvPgog
+      ICAgPHJlY3QgeD0iMTI4IiB5PSIyMjQuMTYxNyIgd2lkdGg9IjYyLjIyMjIiIGhlaWdodD0iOC44ODg5Ii8+
+      CiAgICA8cGF0aCBkPSJNMTk5LjExMTIsMzM0Ljg2ODZoOTQuODQyYTMzLjcxMjEsMzMuNzEyMSwwLDAsMCwz
+      LjU3Ni04Ljg4ODloLTk4LjQxOFoiLz4KICAgIDxwYXRoIGQ9Ik0yODYuNTI4NiwyOTIuMDRoLTY5LjY0djgu
+      ODg4OGg3Ny4wNTQ3QTM0LjA3NTQsMzQuMDc1NCwwLDAsMCwyODYuNTI4NiwyOTIuMDRaIi8+CiAgICA8cGF0
+      aCBkPSJNMjE2Ljg4ODksMjc1LjA3MDZWMjgzLjk2aDY5LjY0YTM0LjA3NzQsMzQuMDc3NCwwLDAsMCw3LjQx
+      NS04Ljg4ODlaIi8+CiAgICA8cGF0aCBkPSJNMjkzLjk1MzIsMjQxLjEzMTNoLTk0Ljg0MlYyNTAuMDJoOTgu
+      NDE4QTMzLjcxNDgsMzMuNzE0OCwwLDAsMCwyOTMuOTUzMiwyNDEuMTMxM1oiLz4KICAgIDxwYXRoIGQ9Ik0y
+      NjQuNTY1NiwyMjQuMTYxN0gxOTkuMTExMnY4Ljg4ODhoODguMzVBMzMuODEzOCwzMy44MTM4LDAsMCwwLDI2
+      NC41NjU2LDIyNC4xNjE3WiIvPgogICAgPHJlY3QgeD0iMjE2Ljg4ODkiIHk9IjI1OC4xMDEiIHdpZHRoPSIy
+      Ni42NjY3IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHBhdGggZD0iTTI2OC42MDYxLDI2Ni45OWgyOC43MWEz
+      My45NDkyLDMzLjk0OTIsMCwwLDAsMS4xODktOC44ODg5aC0yOS44OTlaIi8+CiAgICA8cmVjdCB4PSIyMTYu
+      ODg4OSIgeT0iMzA5LjAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4OSIvPgogICAgPHBhdGggZD0i
+      TTI2OC42MDYxLDMwOS4wMXY4Ljg4OWgyOS44OTlhMzMuOTQ4OCwzMy45NDg4LDAsMCwwLTEuMTg5LTguODg5
+      WiIvPgogICAgPHBhdGggZD0iTTE5OS4xMTEyLDM1MS43NWw2NS40NTQ0LjA4NzlhMzMuNjkyNiwzMy42OTI2
+      LDAsMCwwLDIyLjg5NTktOC44ODg4aC04OC4zNVoiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMzc2Ljg3NSAz
+      NTEuODM4IDM3OS45NzkgMzQyLjk0OSAzNzMuNzk5IDM0Mi45NDkgMzc2Ljg3NSAzNTEuODM4Ii8+CiAgICA8
+      cG9seWdvbiBwb2ludHM9IjM3MC45NjIgMzM0Ljg2OSAzODIuODE2IDMzNC44NjkgMzg1LjkzNiAzMjUuOTgg
+      MzY3Ljg0MiAzMjUuOTggMzcwLjk2MiAzMzQuODY5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM2NS4wMDUg
+      MzE3Ljg5OSAzODguNzczIDMxNy44OTkgMzkxLjg5NCAzMDkuMDEgMzYxLjg4NCAzMDkuMDEgMzY1LjAwNSAz
+      MTcuODk5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM1OS4wNDcgMzAwLjkyOSAzOTQuNzMxIDMwMC45Mjkg
+      Mzk3Ljg1MSAyOTIuMDQgMzU1LjkyNyAyOTIuMDQgMzU5LjA0NyAzMDAuOTI5Ii8+CiAgICA8cG9seWdvbiBw
+      b2ludHM9IjMyMy41NTYgMjY2Ljk5IDM3MS41OCAyNjYuOTkgMzY4LjQ4OSAyNTguMTAxIDMyMy41NTYgMjU4
+      LjEwMSAzMjMuNTU2IDI2Ni45OSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIzODguMDk5IDI1MC4wMiA0NDgg
+      MjUwLjAyIDQ0OCAyNDEuMTMxIDM5MS4xOSAyNDEuMTMxIDM4OC4wOTkgMjUwLjAyIi8+CiAgICA8cG9seWdv
+      biBwb2ludHM9IjM5Ny4wOTEgMjI0LjE2MiAzOTQgMjMzLjA1MSA0NDggMjMzLjA1MSA0NDggMjI0LjE2MiAz
+      OTcuMDkxIDIyNC4xNjIiLz4KICAgIDxyZWN0IHg9IjMwNS43Nzc5IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjQ0
+      LjQ0NDUiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSIzMDUuNzc3OSIgeT0iMzI1Ljk3OTciIHdp
+      ZHRoPSI0NC40NDQ1IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMzIzLjU1NTYiIHk9IjMwOS4w
+      MSIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODkiLz4KICAgIDxyZWN0IHg9IjMyMy41NTU2IiB5PSIy
+      OTIuMDQwNCIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9
+      IjQzMC4yMjIgMjU4LjEwMSAzODUuMjg5IDI1OC4xMDEgMzgyLjE5OCAyNjYuOTkgNDMwLjIyMiAyNjYuOTkg
+      NDMwLjIyMiAyNTguMTAxIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjQwMy41NTYgMjgzLjk2IDQzMC4yMjIg
+      MjgzLjk2IDQzMC4yMjIgMjc1LjA3MSA0MDMuNTU2IDI3NS4wNzEgNDAzLjU1NiAyNzUuMDcxIDM3OS4zODcg
+      Mjc1LjA3MSAzNzYuODg5IDI4Mi4yNTYgMzc0LjM5IDI3NS4wNzEgMzUwLjIyMiAyNzUuMDcxIDMyMy41NTYg
+      Mjc1LjA3MSAzMjMuNTU2IDI4My45NiAzNTAuMjIyIDI4My45NiAzNTAuMjIyIDI3NS43OTEgMzUzLjA5IDI4
+      My45NiA0MDAuNjg4IDI4My45NiA0MDMuNTU2IDI3NS43OTIgNDAzLjU1NiAyODMuOTYiLz4KICAgIDxyZWN0
+      IHg9IjQwMy41NTU1IiB5PSIyOTIuMDQwNCIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODg5Ii8+CiAg
+      ICA8cmVjdCB4PSI0MDMuNTU1NSIgeT0iMzA5LjAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4OSIv
+      PgogICAgPHJlY3QgeD0iNDAzLjU1NTUiIHk9IjMyNS45Nzk3IiB3aWR0aD0iNDQuNDQ0NSIgaGVpZ2h0PSI4
+      Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjQwMy41NTU1IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjQ0LjQ0NDUiIGhl
+      aWdodD0iOC44ODg5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM2NS42NzkgMjUwLjAyIDM2Mi41ODggMjQx
+      LjEzMSAzMDUuNzc4IDI0MS4xMzEgMzA1Ljc3OCAyNTAuMDIgMzY1LjY3OSAyNTAuMDIiLz4KICAgIDxwb2x5
+      Z29uIHBvaW50cz0iMzU5Ljc3OCAyMzMuMDUxIDM1Ni42ODcgMjI0LjE2MiAzMDUuNzc4IDIyNC4xNjIgMzA1
+      Ljc3OCAyMzMuMDUxIDM1OS43NzggMjMzLjA1MSIvPgogIDwvZz4KPC9zdmc+Cg==
+    keywords:
+    - ibm
+    - metering
+    - usage
+    - monitoring
+    - chargeback
+    - showback
+    - cloudpak
+    maintainers:
+    - name: IBM
+    name: ibm-usage-metering
+    sources:
+    - https://github.ibm.com/cloud-license-reporter/ibm-usage-metering-operator
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-usage-metering-1.0.8+20260916.194642.0.tgz
+    version: 1.0.8+20260916.194642.0
+  ibm-usage-metering-cluster-scoped:
+  - annotations:
+      artifacthub.io/readme: |
+        file://README.md
+      charts.openshift.io/name: ibm-usage-metering-cluster-scoped
+      charts.openshift.io/provider: IBM
+      charts.openshift.io/source-url: https://github.ibm.com/cloud-license-reporter/ibm-usage-metering-operator
+      charts.openshift.io/sources: https://github.ibm.com/cloud-license-reporter/ibm-usage-metering-operator
+    apiVersion: v2
+    appVersion: 1.0.8
+    created: "2026-11-24T21:07:45.338398474-05:00"
+    description: A Helm chart for IBM Usage Metering cluster-scoped resources installation.
+      This chart installs cluster-wide resources (CRDs) required by IBM Usage Metering
+      Service (UMS). Must be installed before the main ibm-usage-metering chart.
+    digest: bed87305376407b260cdf911f96c83199fc9fc9bb902923f48c35b5424353d4b
+    home: https://ibm.biz/usage_metering_service
+    icon: data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxu
+      cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NzYiIGhlaWdodD0iNTc2IiB2aWV3Qm94
+      PSIwIDAgNTc2IDU3NiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmls
+      bDogI2ZmZjsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3
+      aWR0aD0iNTc2IiBoZWlnaHQ9IjU3NiIvPgogIDxnPgogICAgPHJlY3QgeD0iMTI4IiB5PSIzNDIuOTQ5NSIg
+      d2lkdGg9IjYyLjIyMjIiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSIxMjgiIHk9IjMyNS45Nzk3
+      IiB3aWR0aD0iNjIuMjIyMiIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjE0NS43Nzc3IiB5PSIz
+      MDkuMDEiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg5Ii8+CiAgICA8cmVjdCB4PSIxNDUuNzc3NyIg
+      eT0iMjkyLjA0MDQiIHdpZHRoPSIyNi42NjY3IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMTQ1
+      Ljc3NzciIHk9IjI3NS4wNzA2IiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAgIDxyZWN0
+      IHg9IjE0NS43Nzc3IiB5PSIyNTguMTAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4ODkiLz4KICAg
+      IDxyZWN0IHg9IjEyOCIgeT0iMjQxLjEzMTMiIHdpZHRoPSI2Mi4yMjIyIiBoZWlnaHQ9IjguODg4OSIvPgog
+      ICAgPHJlY3QgeD0iMTI4IiB5PSIyMjQuMTYxNyIgd2lkdGg9IjYyLjIyMjIiIGhlaWdodD0iOC44ODg5Ii8+
+      CiAgICA8cGF0aCBkPSJNMTk5LjExMTIsMzM0Ljg2ODZoOTQuODQyYTMzLjcxMjEsMzMuNzEyMSwwLDAsMCwz
+      LjU3Ni04Ljg4ODloLTk4LjQxOFoiLz4KICAgIDxwYXRoIGQ9Ik0yODYuNTI4NiwyOTIuMDRoLTY5LjY0djgu
+      ODg4OGg3Ny4wNTQ3QTM0LjA3NTQsMzQuMDc1NCwwLDAsMCwyODYuNTI4NiwyOTIuMDRaIi8+CiAgICA8cGF0
+      aCBkPSJNMjE2Ljg4ODksMjc1LjA3MDZWMjgzLjk2aDY5LjY0YTM0LjA3NzQsMzQuMDc3NCwwLDAsMCw3LjQx
+      NS04Ljg4ODlaIi8+CiAgICA8cGF0aCBkPSJNMjkzLjk1MzIsMjQxLjEzMTNoLTk0Ljg0MlYyNTAuMDJoOTgu
+      NDE4QTMzLjcxNDgsMzMuNzE0OCwwLDAsMCwyOTMuOTUzMiwyNDEuMTMxM1oiLz4KICAgIDxwYXRoIGQ9Ik0y
+      NjQuNTY1NiwyMjQuMTYxN0gxOTkuMTExMnY4Ljg4ODhoODguMzVBMzMuODEzOCwzMy44MTM4LDAsMCwwLDI2
+      NC41NjU2LDIyNC4xNjE3WiIvPgogICAgPHJlY3QgeD0iMjE2Ljg4ODkiIHk9IjI1OC4xMDEiIHdpZHRoPSIy
+      Ni42NjY3IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHBhdGggZD0iTTI2OC42MDYxLDI2Ni45OWgyOC43MWEz
+      My45NDkyLDMzLjk0OTIsMCwwLDAsMS4xODktOC44ODg5aC0yOS44OTlaIi8+CiAgICA8cmVjdCB4PSIyMTYu
+      ODg4OSIgeT0iMzA5LjAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4OSIvPgogICAgPHBhdGggZD0i
+      TTI2OC42MDYxLDMwOS4wMXY4Ljg4OWgyOS44OTlhMzMuOTQ4OCwzMy45NDg4LDAsMCwwLTEuMTg5LTguODg5
+      WiIvPgogICAgPHBhdGggZD0iTTE5OS4xMTEyLDM1MS43NWw2NS40NTQ0LjA4NzlhMzMuNjkyNiwzMy42OTI2
+      LDAsMCwwLDIyLjg5NTktOC44ODg4aC04OC4zNVoiLz4KICAgIDxwb2x5Z29uIHBvaW50cz0iMzc2Ljg3NSAz
+      NTEuODM4IDM3OS45NzkgMzQyLjk0OSAzNzMuNzk5IDM0Mi45NDkgMzc2Ljg3NSAzNTEuODM4Ii8+CiAgICA8
+      cG9seWdvbiBwb2ludHM9IjM3MC45NjIgMzM0Ljg2OSAzODIuODE2IDMzNC44NjkgMzg1LjkzNiAzMjUuOTgg
+      MzY3Ljg0MiAzMjUuOTggMzcwLjk2MiAzMzQuODY5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM2NS4wMDUg
+      MzE3Ljg5OSAzODguNzczIDMxNy44OTkgMzkxLjg5NCAzMDkuMDEgMzYxLjg4NCAzMDkuMDEgMzY1LjAwNSAz
+      MTcuODk5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM1OS4wNDcgMzAwLjkyOSAzOTQuNzMxIDMwMC45Mjkg
+      Mzk3Ljg1MSAyOTIuMDQgMzU1LjkyNyAyOTIuMDQgMzU5LjA0NyAzMDAuOTI5Ii8+CiAgICA8cG9seWdvbiBw
+      b2ludHM9IjMyMy41NTYgMjY2Ljk5IDM3MS41OCAyNjYuOTkgMzY4LjQ4OSAyNTguMTAxIDMyMy41NTYgMjU4
+      LjEwMSAzMjMuNTU2IDI2Ni45OSIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIzODguMDk5IDI1MC4wMiA0NDgg
+      MjUwLjAyIDQ0OCAyNDEuMTMxIDM5MS4xOSAyNDEuMTMxIDM4OC4wOTkgMjUwLjAyIi8+CiAgICA8cG9seWdv
+      biBwb2ludHM9IjM5Ny4wOTEgMjI0LjE2MiAzOTQgMjMzLjA1MSA0NDggMjMzLjA1MSA0NDggMjI0LjE2MiAz
+      OTcuMDkxIDIyNC4xNjIiLz4KICAgIDxyZWN0IHg9IjMwNS43Nzc5IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjQ0
+      LjQ0NDUiIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cmVjdCB4PSIzMDUuNzc3OSIgeT0iMzI1Ljk3OTciIHdp
+      ZHRoPSI0NC40NDQ1IiBoZWlnaHQ9IjguODg4OSIvPgogICAgPHJlY3QgeD0iMzIzLjU1NTYiIHk9IjMwOS4w
+      MSIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODkiLz4KICAgIDxyZWN0IHg9IjMyMy41NTU2IiB5PSIy
+      OTIuMDQwNCIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODg5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9
+      IjQzMC4yMjIgMjU4LjEwMSAzODUuMjg5IDI1OC4xMDEgMzgyLjE5OCAyNjYuOTkgNDMwLjIyMiAyNjYuOTkg
+      NDMwLjIyMiAyNTguMTAxIi8+CiAgICA8cG9seWdvbiBwb2ludHM9IjQwMy41NTYgMjgzLjk2IDQzMC4yMjIg
+      MjgzLjk2IDQzMC4yMjIgMjc1LjA3MSA0MDMuNTU2IDI3NS4wNzEgNDAzLjU1NiAyNzUuMDcxIDM3OS4zODcg
+      Mjc1LjA3MSAzNzYuODg5IDI4Mi4yNTYgMzc0LjM5IDI3NS4wNzEgMzUwLjIyMiAyNzUuMDcxIDMyMy41NTYg
+      Mjc1LjA3MSAzMjMuNTU2IDI4My45NiAzNTAuMjIyIDI4My45NiAzNTAuMjIyIDI3NS43OTEgMzUzLjA5IDI4
+      My45NiA0MDAuNjg4IDI4My45NiA0MDMuNTU2IDI3NS43OTIgNDAzLjU1NiAyODMuOTYiLz4KICAgIDxyZWN0
+      IHg9IjQwMy41NTU1IiB5PSIyOTIuMDQwNCIgd2lkdGg9IjI2LjY2NjciIGhlaWdodD0iOC44ODg5Ii8+CiAg
+      ICA8cmVjdCB4PSI0MDMuNTU1NSIgeT0iMzA5LjAxIiB3aWR0aD0iMjYuNjY2NyIgaGVpZ2h0PSI4Ljg4OSIv
+      PgogICAgPHJlY3QgeD0iNDAzLjU1NTUiIHk9IjMyNS45Nzk3IiB3aWR0aD0iNDQuNDQ0NSIgaGVpZ2h0PSI4
+      Ljg4ODkiLz4KICAgIDxyZWN0IHg9IjQwMy41NTU1IiB5PSIzNDIuOTQ5NSIgd2lkdGg9IjQ0LjQ0NDUiIGhl
+      aWdodD0iOC44ODg5Ii8+CiAgICA8cG9seWdvbiBwb2ludHM9IjM2NS42NzkgMjUwLjAyIDM2Mi41ODggMjQx
+      LjEzMSAzMDUuNzc4IDI0MS4xMzEgMzA1Ljc3OCAyNTAuMDIgMzY1LjY3OSAyNTAuMDIiLz4KICAgIDxwb2x5
+      Z29uIHBvaW50cz0iMzU5Ljc3OCAyMzMuMDUxIDM1Ni42ODcgMjI0LjE2MiAzMDUuNzc4IDIyNC4xNjIgMzA1
+      Ljc3OCAyMzMuMDUxIDM1OS43NzggMjMzLjA1MSIvPgogIDwvZz4KPC9zdmc+Cg==
+    keywords:
+    - ibm
+    - metering
+    - usage
+    - monitoring
+    - chargeback
+    - showback
+    - cloudpak
+    - cluster-scoped
+    - crds
+    maintainers:
+    - name: IBM
+    name: ibm-usage-metering-cluster-scoped
+    sources:
+    - https://github.ibm.com/cloud-license-reporter/ibm-usage-metering-operator
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ibm-usage-metering-cluster-scoped-1.0.8+20260916.194642.0.tgz
+    version: 1.0.8+20260916.194642.0
+  opencontent-opensearch:
+  - apiVersion: v2
+    appVersion: 1.5.3
+    created: "2026-11-24T21:07:45.340098986-05:00"
+    digest: da654c532bffe55a7f2526d6f91b9f0a567e17608fcead78a430f770dc08bba4
+    name: opencontent-opensearch
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/opencontent-opensearch-1.5.3+20250905.120936.tgz
+    version: 1.5.3+20250905.120936
+  opencontent-opensearch-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 1.5.3
+    created: "2026-11-24T21:07:45.344123911-05:00"
+    digest: a9c65eb3f3ae554cde8b7c52d67fa18562bd4b6eea62a98dad88f8e35f06a356
+    name: opencontent-opensearch-cluster-scoped
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/opencontent-opensearch-cluster-scoped-1.5.3+20250905.120936.tgz
+    version: 1.5.3+20250905.120936
+  platform-config:
+  - apiVersion: v2
+    appVersion: 5.10.8
+    created: "2026-11-24T21:07:45.345754548-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 8e318792f324fd55be0d3c6673ba52dad038f88c2f6b5b46ff998316eb321b91
+    name: platform-config
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/platform-config-5.10.8+20260929.105344.9.tgz
+    version: 5.10.8+20260929.105344.9
+  postgresql:
+  - apiVersion: v2
+    appVersion: 1.28.5
+    created: "2026-11-24T21:07:45.350117328-05:00"
+    description: EDB Postgres for Kubernetes Helm Chart
+    digest: 75435beeb7f2f970827d524c5160854fddccbbdfb66cb9ed2ef34bcf9ea1d9fb
+    icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
+    name: postgresql
+    sources:
+    - https://github.com/EnterpriseDB/edb-postgres-for-kubernetes-charts
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/postgresql-5.40.2+20261016.171231.346.tgz
+    version: 5.40.2+20261016.171231.346
+  postgresql-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 1.28.5
+    created: "2026-11-24T21:07:45.364585676-05:00"
+    description: A Helm chart for Postgresql Cluster Scope
+    digest: fe910bb6fab1721fac0df262fa1ffbeb3189e09d78615f8f7b06427185111ee2
+    icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
+    name: postgresql-cluster-scoped
+    sources:
+    - https://github.com/EnterpriseDB/edb-postgres-for-kubernetes-charts
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/postgresql-cluster-scoped-5.40.2+20261016.171231.346.tgz
+    version: 5.40.2+20261016.171231.346
+  ws-pipelines:
+  - apiVersion: v2
+    appVersion: 5.4.8
+    created: "2026-11-24T21:07:45.366506754-05:00"
+    description: CPD Orchestration Pipelines Helm chart for operator
+    digest: 560818c7ce4a716bf91a3fcf889a9b581b8141042a1584c75ffd58a1fa7e3945
+    name: ws-pipelines
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ws-pipelines-13.0.8+20260929.143744.25.tgz
+    version: 13.0.8+20260929.143744.25
+  ws-pipelines-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.8
+    created: "2026-11-24T21:07:45.367737271-05:00"
+    description: CPD Orchestration Pipelines Helm chart for operator
+    digest: 9217e5f0c45c182500e5682afff4cfdc64b40a49bb05181918f145842fc61495
+    name: ws-pipelines-cluster-scoped
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/ws-pipelines-cluster-scoped-13.0.8+20260929.143744.25.tgz
+    version: 13.0.8+20260929.143744.25
+  zen:
+  - apiVersion: v2
+    appVersion: 6.10.8
+    created: "2026-11-24T21:07:45.369149549-05:00"
+    description: A Helm chart for Kubernetes
+    digest: c1a6681a4df93d0a59633df71aaa372182ad0b4827aca5f8c6d2366a5c3f2b17
+    name: zen
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/zen-6.10.8+20260929.112719.45.tgz
+    version: 6.10.8+20260929.112719.45
+  zen-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 6.10.8
+    created: "2026-11-24T21:07:45.370473695-05:00"
+    description: A Helm chart for Kubernetes
+    digest: dfbfda0d6f2b8ea826860ed41e321aa58d2e08aaf82336b543b540a72ce39c72
+    name: zen-cluster-scoped
+    type: application
+    urls:
+    - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/zen-cluster-scoped-6.10.8+20260929.112719.45.tgz
+    version: 6.10.8+20260929.112719.45
+generated: "2026-11-24T21:07:45.286994361-05:00"
