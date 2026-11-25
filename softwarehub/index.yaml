@@ -16,7 +16,7 @@ entries:
   ccs:
   - apiVersion: v2
     appVersion: 13.0.8
-    created: "2026-11-24T21:07:45.289393065-05:00"
+    created: "2026-11-24T21:16:20.779707667-05:00"
     description: CPD Common Core Service Helm chart for operator
     digest: b07a52f6dc2276a5922b54cb8970a02bf83c469db47b5c6493fe86d025c51655
     name: ccs
@@ -27,7 +27,7 @@ entries:
   ccs-cluster-scoped:
   - apiVersion: v2
     appVersion: 13.0.8
-    created: "2026-11-24T21:07:45.291594061-05:00"
+    created: "2026-11-24T21:16:20.780772871-05:00"
     description: CPD Common Core Service Helm chart for operator
     digest: 208f9efa21e817fb1862fd362ef17587167b4d2b9fa88edbfb17ae8b58b3f30d
     name: ccs-cluster-scoped
@@ -38,7 +38,7 @@ entries:
   cpd-platform:
   - apiVersion: v2
     appVersion: 5.10.8
-    created: "2026-11-24T21:07:45.293230032-05:00"
+    created: "2026-11-24T21:16:20.781524643-05:00"
     description: A Helm chart for Kubernetes
     digest: a2db04906a4b7c2f78dcbc315707cc1caae04b4f89ba767f174e0cf411a6328a
     name: cpd-platform
@@ -49,7 +49,7 @@ entries:
   cpd-platform-cluster-scoped:
   - apiVersion: v2
     appVersion: 5.10.8
-    created: "2026-11-24T21:07:45.294353454-05:00"
+    created: "2026-11-24T21:16:20.781985798-05:00"
     description: A Helm chart for Kubernetes
     digest: 44d3698dee16fd3d2623ecda3cfe960a7b1f89d538698d6923bc075037edcbe9
     name: cpd-platform-cluster-scoped
@@ -60,7 +60,7 @@ entries:
   datastage-ent-plus:
   - apiVersion: v2
     appVersion: 5.4.8
-    created: "2026-11-24T21:07:45.296025498-05:00"
+    created: "2026-11-24T21:16:20.782534182-05:00"
     description: A Helm chart for DataStage.
     digest: eb3d6e90d536ee643656c7e1058cc35495f891f829a533241f2f823829b61314
     name: datastage-ent-plus
@@ -71,7 +71,7 @@ entries:
   datastage-ent-plus-cluster-scoped:
   - apiVersion: v2
     appVersion: 5.4.8
-    created: "2026-11-24T21:07:45.297058722-05:00"
+    created: "2026-11-24T21:16:20.782969486-05:00"
     description: A Helm chart for DataStage cluster scoped crd.
     digest: 660e0d06b54663ffa61a17c37a6c99ec563964d99f93c8be58c75d124798e0c9
     name: datastage-ent-plus-cluster-scoped
@@ -87,7 +87,7 @@ entries:
       versionOperator-2: 4.5.11
     apiVersion: v2
     appVersion: 4.19.3
-    created: "2026-11-24T21:07:45.300513349-05:00"
+    created: "2026-11-24T21:16:20.783521888-05:00"
     description: A Helm chart for ibm-common-service-operator and ibm-odlm namespace
       scoped resources
     digest: 06f2931a5ef093dd15223c233704bf6e66210b360d6fb2eef7bcf4e79d08609b
@@ -104,7 +104,7 @@ entries:
       versionOperator-2: 4.5.11
     apiVersion: v2
     appVersion: 4.19.3
-    created: "2026-11-24T21:07:45.304572236-05:00"
+    created: "2026-11-24T21:16:20.78701978-05:00"
     description: A Helm chart for ibm-common-service-operator and ibm-odlm cluster
       scoped resources
     digest: 0dd04e95124041b5043e908bd97aaf82f5ff8c6ac7bcd9faedaf0af947507854
@@ -121,7 +121,7 @@ entries:
       versionOperator-2: 4.15.2
     apiVersion: v2
     appVersion: 4.18.2
-    created: "2026-11-24T21:07:45.307165072-05:00"
+    created: "2026-11-24T21:16:20.788082996-05:00"
     description: A Helm chart for ibm-iam-operator and ibm-commonui-operator namespace
       scoped resources
     digest: 79fab9dd174e84c65af8640c26db7e9e61922dc8147782706ff8582a19de4571
@@ -140,7 +140,7 @@ entries:
       versionOperator-2: 4.15.2
     apiVersion: v2
     appVersion: 4.18.2
-    created: "2026-11-24T21:07:45.309014934-05:00"
+    created: "2026-11-24T21:16:20.788807565-05:00"
     description: A Helm chart for ibm-iam-operator and ibm-commonui-operator cluster
       scoped resources
     digest: 3a7f173752a288f34676601f55db06ba74ef84466c19d56df8e6fad6adf275c1
@@ -158,7 +158,7 @@ entries:
       charts.openshift.io/source-url: https://github.com/IBM/ibm-licensing-operator
       charts.openshift.io/sources: https://github.com/IBM/ibm-licensing-operator
     apiVersion: v2
-    created: "2026-11-24T21:07:45.311338125-05:00"
+    created: "2026-11-24T21:16:20.790337075-05:00"
     description: A Helm chart for License Service. Contains the namespace-scope resources.
       You can use License Service to retrieve license usage data from your cluster
       and create a licensing snapshot. License Service collects and measures the license
@@ -211,7 +211,7 @@ entries:
       charts.openshift.io/source-url: https://github.com/IBM/ibm-licensing-operator
       charts.openshift.io/sources: https://github.com/IBM/ibm-licensing-operator
     apiVersion: v2
-    created: "2026-11-24T21:07:45.314019677-05:00"
+    created: "2026-11-24T21:16:20.793620809-05:00"
     description: A Helm chart for License Service. You can use License Service to
       retrieve license usage data from your cluster and create a licensing snapshot.
       License Service collects and measures the license usage of your IBM® products
@@ -245,7 +245,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 28.3.3
-    created: "2026-11-24T21:07:45.316225742-05:00"
+    created: "2026-11-24T21:16:20.79568947-05:00"
     description: ibm-pg-operator manages Postgres Clusters embedded in IBM Products
     digest: b7bf939c55905e23ad71a30859f9ec76e872b33c8fd9944144137fdec2216be4
     home: https://www.ibm.com
@@ -271,7 +271,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 28.3.3
-    created: "2026-11-24T21:07:45.332834989-05:00"
+    created: "2026-11-24T21:16:20.807661325-05:00"
     description: ibm-pg-operator manages Postgres Clusters embedded in IBM Products
       - Cluster-scoped resources
     digest: 5cc734d30ebb9e47ccef395f1dfc03c6076548ddebc3091db4ccbddb5bca0ca8
@@ -302,7 +302,7 @@ entries:
       charts.openshift.io/sources: https://github.ibm.com/cloud-license-reporter/ibm-usage-metering-operator
     apiVersion: v2
     appVersion: 1.0.8
-    created: "2026-11-24T21:07:45.335590918-05:00"
+    created: "2026-11-24T21:16:20.812179489-05:00"
     description: 'A Helm chart for IBM Usage Metering installation. IBM products can
       integrate with Usage Metering Service (UMS) that is used to capture two types
       of product usage metrics: contractual metrics for compliance purposes, and adoption
@@ -395,7 +395,7 @@ entries:
       charts.openshift.io/sources: https://github.ibm.com/cloud-license-reporter/ibm-usage-metering-operator
     apiVersion: v2
     appVersion: 1.0.8
-    created: "2026-11-24T21:07:45.338398474-05:00"
+    created: "2026-11-24T21:16:20.813999576-05:00"
     description: A Helm chart for IBM Usage Metering cluster-scoped resources installation.
       This chart installs cluster-wide resources (CRDs) required by IBM Usage Metering
       Service (UMS). Must be installed before the main ibm-usage-metering chart.
@@ -479,7 +479,7 @@ entries:
   opencontent-opensearch:
   - apiVersion: v2
     appVersion: 1.5.3
-    created: "2026-11-24T21:07:45.340098986-05:00"
+    created: "2026-11-24T21:16:20.814674975-05:00"
     digest: da654c532bffe55a7f2526d6f91b9f0a567e17608fcead78a430f770dc08bba4
     name: opencontent-opensearch
     type: application
@@ -489,7 +489,7 @@ entries:
   opencontent-opensearch-cluster-scoped:
   - apiVersion: v2
     appVersion: 1.5.3
-    created: "2026-11-24T21:07:45.344123911-05:00"
+    created: "2026-11-24T21:16:20.816532739-05:00"
     digest: a9c65eb3f3ae554cde8b7c52d67fa18562bd4b6eea62a98dad88f8e35f06a356
     name: opencontent-opensearch-cluster-scoped
     type: application
@@ -499,7 +499,7 @@ entries:
   platform-config:
   - apiVersion: v2
     appVersion: 5.10.8
-    created: "2026-11-24T21:07:45.345754548-05:00"
+    created: "2026-11-24T21:16:20.817120412-05:00"
     description: A Helm chart for Kubernetes
     digest: 8e318792f324fd55be0d3c6673ba52dad038f88c2f6b5b46ff998316eb321b91
     name: platform-config
@@ -510,7 +510,7 @@ entries:
   postgresql:
   - apiVersion: v2
     appVersion: 1.28.5
-    created: "2026-11-24T21:07:45.350117328-05:00"
+    created: "2026-11-24T21:16:20.820477641-05:00"
     description: EDB Postgres for Kubernetes Helm Chart
     digest: 75435beeb7f2f970827d524c5160854fddccbbdfb66cb9ed2ef34bcf9ea1d9fb
     icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
@@ -524,7 +524,7 @@ entries:
   postgresql-cluster-scoped:
   - apiVersion: v2
     appVersion: 1.28.5
-    created: "2026-11-24T21:07:45.364585676-05:00"
+    created: "2026-11-24T21:16:20.833481142-05:00"
     description: A Helm chart for Postgresql Cluster Scope
     digest: fe910bb6fab1721fac0df262fa1ffbeb3189e09d78615f8f7b06427185111ee2
     icon: https://www.enterprisedb.com/themes/custom/edb_bootstrap_sass/edb-logo-disc-dark-2.svg
@@ -538,7 +538,7 @@ entries:
   ws-pipelines:
   - apiVersion: v2
     appVersion: 5.4.8
-    created: "2026-11-24T21:07:45.366506754-05:00"
+    created: "2026-11-24T21:16:20.834690697-05:00"
     description: CPD Orchestration Pipelines Helm chart for operator
     digest: 560818c7ce4a716bf91a3fcf889a9b581b8141042a1584c75ffd58a1fa7e3945
     name: ws-pipelines
@@ -549,7 +549,7 @@ entries:
   ws-pipelines-cluster-scoped:
   - apiVersion: v2
     appVersion: 5.4.8
-    created: "2026-11-24T21:07:45.367737271-05:00"
+    created: "2026-11-24T21:16:20.835155773-05:00"
     description: CPD Orchestration Pipelines Helm chart for operator
     digest: 9217e5f0c45c182500e5682afff4cfdc64b40a49bb05181918f145842fc61495
     name: ws-pipelines-cluster-scoped
@@ -560,7 +560,7 @@ entries:
   zen:
   - apiVersion: v2
     appVersion: 6.10.8
-    created: "2026-11-24T21:07:45.369149549-05:00"
+    created: "2026-11-24T21:16:20.836443601-05:00"
     description: A Helm chart for Kubernetes
     digest: c1a6681a4df93d0a59633df71aaa372182ad0b4827aca5f8c6d2366a5c3f2b17
     name: zen
@@ -571,7 +571,7 @@ entries:
   zen-cluster-scoped:
   - apiVersion: v2
     appVersion: 6.10.8
-    created: "2026-11-24T21:07:45.370473695-05:00"
+    created: "2026-11-24T21:16:20.83687452-05:00"
     description: A Helm chart for Kubernetes
     digest: dfbfda0d6f2b8ea826860ed41e321aa58d2e08aaf82336b543b540a72ce39c72
     name: zen-cluster-scoped
@@ -579,4 +579,4 @@ entries:
     urls:
     - https://raw.github.com/jhwhenry/gitops-charts/main/softwarehub/zen-cluster-scoped-6.10.8+20260929.112719.45.tgz
     version: 6.10.8+20260929.112719.45
-generated: "2026-11-24T21:07:45.286994361-05:00"
+generated: "2026-11-24T21:16:20.778705851-05:00"
